@@ -2,6 +2,7 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Music, Martini, Clock, Phone, MapPin, Mail, Facebook, Instagram, MessageCircle } from "lucide-react";
 import heroImage from "@/assets/hero-restaurant.jpg";
+import logo from "@/assets/logo/logo_remove.png";
 
 const Index = () => {
   return (
@@ -18,6 +19,13 @@ const Index = () => {
       >
         <div className="container mx-auto px-4 py-20 text-center relative z-10">
           <div className="max-w-4xl mx-auto space-y-6 animate-fade-in">
+            <div className="flex justify-center mb-8">
+              <img 
+                src={logo} 
+                alt="El Chipotle Logo" 
+                className="w-48 h-48 md:w-64 md:h-64 object-contain drop-shadow-2xl animate-bounce-slow"
+              />
+            </div>
             <h1 className="text-5xl md:text-7xl font-bold text-primary-foreground leading-tight">
               ¡Vive la Fiesta del Sabor en El Chipotle!
             </h1>
@@ -48,7 +56,7 @@ const Index = () => {
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-4">
-              🎉 ¡Nuestras Promos Imperdibles!
+               ¡Nuestras Promos Imperdibles!
             </h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
               No dejes pasar nuestras ofertas especiales. ¡Siempre hay una buena excusa para visitarnos!
