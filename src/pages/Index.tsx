@@ -29,10 +29,10 @@ const Index = () => {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center pt-6">
               <Button variant="hero" size="lg" className="text-lg">
-                🌶️ ¡Explora Nuestro Menú!
+                ¡Explora Nuestro Menú!
               </Button>
               <Button variant="hero-outline" size="lg" className="text-lg">
-                📞 Reserva tu Mesa
+               Reserva tu Mesa
               </Button>
             </div>
           </div>
