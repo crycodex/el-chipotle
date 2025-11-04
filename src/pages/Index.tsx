@@ -174,6 +174,90 @@ const Index = () => {
         </div>
       </section>
 
+      {/* Ubicación Section */}
+      <section className="py-20 bg-gradient-to-b from-muted/30 to-background">
+        <div className="container mx-auto px-4">
+          <div className="text-center mb-16">
+            <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-4">
+             Encuéntranos
+            </h2>
+            <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+              Estamos ubicados en el corazón de Ibarra. ¡Ven a visitarnos!
+            </p>
+          </div>
+
+          <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-8 items-center">
+            {/* Información de Contacto */}
+            <div className="space-y-6">
+              <div className="space-y-4">
+                <div className="flex items-start gap-4 p-4 rounded-lg bg-card hover:shadow-lg transition-shadow">
+                  <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center flex-shrink-0">
+                    <MapPin className="w-6 h-6 text-primary" />
+                  </div>
+                  <div>
+                    <h3 className="font-bold text-lg text-foreground mb-1">Dirección</h3>
+                    <p className="text-muted-foreground">
+                      Av. Rafael Sánchez 634, Ibarra 100108, Ecuador
+                    </p>
+                  </div>
+                </div>
+
+                <div className="flex items-start gap-4 p-4 rounded-lg bg-card hover:shadow-lg transition-shadow">
+                  <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center flex-shrink-0">
+                    <Phone className="w-6 h-6 text-primary" />
+                  </div>
+                  <div>
+                    <h3 className="font-bold text-lg text-foreground mb-1">Teléfono</h3>
+                    <a href="tel:+593999402348" className="text-muted-foreground hover:text-primary transition-colors">
+                      +593 99 940 2348
+                    </a>
+                  </div>
+                </div>
+
+                <div className="flex items-start gap-4 p-4 rounded-lg bg-card hover:shadow-lg transition-shadow">
+                  <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center flex-shrink-0">
+                    <Clock className="w-6 h-6 text-primary" />
+                  </div>
+                  <div>
+                    <h3 className="font-bold text-lg text-foreground mb-1">Horarios</h3>
+                    <div className="text-muted-foreground space-y-1 text-sm">
+                      <p><span className="font-semibold">Lun - Jue:</span> 12:00 PM - 10:00 PM</p>
+                      <p><span className="font-semibold">Vie - Sáb:</span> 12:00 PM - 11:00 PM</p>
+                      <p><span className="font-semibold">Domingo:</span> 12:00 PM - 9:00 PM</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <Button size="lg" className="w-full" asChild>
+                <a 
+                  href="https://www.google.com/maps/place/chipotle+ibarra/@0.3499889,-78.1193506,17z/data=!4m6!3m5!1s0x8e2a3cc572562c4b:0xca61bb1b1eb10b6b!8m2!3d0.3499889!4d-78.1193506!16s%2Fg%2F11c5p_y3kh"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <MapPin className="w-5 h-5 mr-2" />
+                  Cómo Llegar
+                </a>
+              </Button>
+            </div>
+
+            {/* Mapa de Google */}
+            <div className="h-[500px] rounded-xl overflow-hidden shadow-2xl border-4 border-primary/20">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.3583842926894!2d-78.12154492425754!3d0.34998888977276616!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e2a3cc572562c4b%3A0xca61bb1b1eb10b6b!2schipotle%20ibarra!5e0!3m2!1ses!2sec!4v1234567890123!5m2!1ses!2sec"
+                width="100%"
+                height="100%"
+                style={{ border: 0 }}
+                allowFullScreen
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+                title="Ubicación de El Chipotle en Google Maps"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Footer */}
       <footer className="bg-foreground text-background py-16">
         <div className="container mx-auto px-4">
