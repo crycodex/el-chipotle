@@ -28,11 +28,15 @@ const Index = () => {
               Descubre un ambiente único donde los buenos cócteles, la música en vivo y los sabores inolvidables se encuentran. ¿Listo para tu nueva adicción?
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center pt-6">
-              <Button variant="hero" size="lg" className="text-lg">
-                ¡Explora Nuestro Menú!
+              <Button variant="hero" size="lg" className="text-lg" asChild>
+                <a href="https://drive.google.com/file/d/1GjZfmYOtEQvXtWevllOq2dOKtz5_-yCY/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+                  ¡Explora Nuestro Menú!
+                </a>
               </Button>
-              <Button variant="hero-outline" size="lg" className="text-lg">
-               Reserva tu Mesa
+              <Button variant="hero-outline" size="lg" className="text-lg" asChild>
+                <a href="https://wa.me/59309999999" target="_blank" rel="noopener noreferrer">
+                  Reserva tu Mesa
+                </a>
               </Button>
             </div>
           </div>
