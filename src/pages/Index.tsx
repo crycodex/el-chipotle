@@ -143,7 +143,7 @@ const Index = () => {
               <div className="w-20 h-20 rounded-full bg-gradient-to-br from-primary to-secondary flex items-center justify-center mx-auto mb-6 shadow-[var(--shadow-warm)]">
                 <Martini className="w-10 h-10 text-primary-foreground" />
               </div>
-              <h3 className="text-2xl font-bold text-foreground">🍹 Buenos Cócteles</h3>
+              <h3 className="text-2xl font-bold text-foreground">Buenos Cócteles</h3>
               <p className="text-muted-foreground leading-relaxed">
                 Nuestros bartenders son expertos en mixología. Desde margaritas clásicas hasta creaciones de autor, tenemos la bebida perfecta para tu plato. ¡Pregunta por nuestra famosa "Margarita Chipotle"!
               </p>
@@ -154,7 +154,7 @@ const Index = () => {
               <div className="w-20 h-20 rounded-full bg-gradient-to-br from-accent to-primary flex items-center justify-center mx-auto mb-6 shadow-lg">
                 <Music className="w-10 h-10 text-primary-foreground" />
               </div>
-              <h3 className="text-2xl font-bold text-foreground">🎶 Música en Vivo</h3>
+              <h3 className="text-2xl font-bold text-foreground">Música en Vivo</h3>
               <p className="text-muted-foreground leading-relaxed">
                 Siente el ritmo de Ibarra. Disfruta de bandas y artistas locales los fines de semana, creando el ambiente perfecto para tu cena, celebración o simplemente para compartir entre amigos.
               </p>
@@ -165,7 +165,7 @@ const Index = () => {
               <div className="w-20 h-20 rounded-full bg-gradient-to-br from-secondary to-accent flex items-center justify-center mx-auto mb-6 shadow-[var(--shadow-warm)]">
                 <Clock className="w-10 h-10 text-primary-foreground" />
               </div>
-              <h3 className="text-2xl font-bold text-foreground">🍻 Comidas en Hora Feliz</h3>
+              <h3 className="text-2xl font-bold text-foreground">Comidas en Hora Feliz</h3>
               <p className="text-muted-foreground leading-relaxed">
                 ¿Por qué esperar al fin de semana? Únete a nuestra Hora Feliz con piqueos perfectos para compartir, cervezas heladas y cócteles especiales a precios que te encantarán.
               </p>
@@ -185,13 +185,13 @@ const Index = () => {
                 Auténtico sabor Mexicano & Americano en Ibarra desde 2015. ¡Te esperamos!
               </p>
               <div className="flex gap-4 pt-4">
-                <a href="#" className="w-10 h-10 rounded-full bg-primary/20 hover:bg-primary flex items-center justify-center transition-colors">
+                <a title="Facebook" href="https://www.facebook.com/elchipotleibarra" className="w-10 h-10 rounded-full bg-primary/20 hover:bg-primary flex items-center justify-center transition-colors">
                   <Facebook className="w-5 h-5" />
                 </a>
-                <a href="#" className="w-10 h-10 rounded-full bg-primary/20 hover:bg-primary flex items-center justify-center transition-colors">
+                <a title="Instagram" href="https://www.instagram.com/elchipotleibarra" className="w-10 h-10 rounded-full bg-primary/20 hover:bg-primary flex items-center justify-center transition-colors">
                   <Instagram className="w-5 h-5" />
                 </a>
-                <a href="https://wa.me/593999402348" className="w-10 h-10 rounded-full bg-accent/20 hover:bg-accent flex items-center justify-center transition-colors">
+                <a title="WhatsApp" href="https://wa.me/593999402348" className="w-10 h-10 rounded-full bg-accent/20 hover:bg-accent flex items-center justify-center transition-colors">
                   <MessageCircle className="w-5 h-5" />
                 </a>
               </div>
